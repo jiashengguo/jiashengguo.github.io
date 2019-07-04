@@ -1,12 +1,38 @@
-<!DOCTYPE html>
 <html>
-<head>
-<title>pttest's Website</title>
-</head>
 <body>
+<script type="text/javascript">
+          window._pt_lt = new Date().getTime();
+          window._pt_sp_2 = [];
+          _pt_sp_2.push("setAccount,1acbb61e");
+          var _protocol =(("https:" == document.location.protocol) ? " https://" : " http://");
+          (function() {
+            var atag = document.createElement("script");
+            atag.type = "text/javascript";
+            atag.async = true;
+            atag.src = _protocol + "js.ptengine.jp/1acbb61e.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(atag, s);
+           })();
+</script>
+<form action="/" method="post">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </div>
 
-<h1>Hello Internet!</h1>
-<p>This is a paragraph.</p>
-<script>alert('Hello world!');</script>
+  <div>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_email">
+  </div>
+
+  <div>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </div>
+ 
+  <div class="button">
+    <button type="submit">Send your message</button>
+  </div>
+</form>
 </body>
 </html>
