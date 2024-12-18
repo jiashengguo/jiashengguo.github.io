@@ -21,7 +21,7 @@ Models:
 - [List](#List)
 - [Todo](#Todo)
 
-## Space
+### Space
 ```mermaid
 erDiagram
 "Space" {
