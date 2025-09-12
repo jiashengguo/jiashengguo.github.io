@@ -25,12 +25,12 @@ Defines the possible roles a user can have within a collaborative space: 'USER' 
 
 ## Models
 
-- [Space](#Space)
-- [SpaceUser](#SpaceUser)
-- [User](#User)
-- [List](#List)
-- [Todo](#Todo)
-- [Content](#Content)
+- [Space](#space)
+- [SpaceUser](#spaceuser)
+- [User](#user)
+- [List](#list)
+- [Todo](#todo)
+- [Content](#content)
 
 ### Space
 Represents a collaborative environment where users can organize and manage lists and todos.
